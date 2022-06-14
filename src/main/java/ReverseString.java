@@ -3,10 +3,10 @@ public class ReverseString {
         String word = "Codytex";
         String reverse = "";
         String anotherWay = "";
-        char [] array=word.toCharArray();
-        for (int i = array.length-1; i>0; i++) {
-            anotherWay += array[i];
-        }
+//        char [] array=word.toCharArray();
+//        for (int i = array.length-1; i>0; i++) {
+//            anotherWay += array[i];
+//            System.out.println(anotherWay);
 
         for (int i = word.length()-1; i>=0 ; i--) {
             reverse=reverse+word.charAt(i);
